@@ -70,15 +70,14 @@
           </v-hover>
 
           <v-hover v-slot="{ isHovering, props }">
-            <v-btn
-              v-bind="props"
+            <v-btn              v-bind="props"
               block
               color="accent"
               size="x-large"
               class="donation-btn"
               :class="{ 'btn-hover': isHovering }"
               prepend-icon="mdi-leaf"
-              href="https://adv.st/7me"
+              href="https://giving.7me.app/guest-donation/church/cc673fc4-ab07-4731-9879-80d20cc7455f"
               target="_blank"
               rounded="lg"
             >
