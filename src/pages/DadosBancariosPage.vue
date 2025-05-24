@@ -2,20 +2,20 @@
   <div>
     <!-- Fundo com gradiente azul suave -->
     <div class="background-gradient"></div>
-    
+
     <!-- Conteúdo principal -->
     <div class="content-container">
       <!-- Cabeçalho com Logo -->
       <div class="church-header">
         <div class="logo-wrapper">
-          <img 
-            src="../assets/logoIgreja.png" 
-            alt="Logo Igreja Adventista" 
+          <img
+            src="../assets/logoIgreja.png"
+            alt="Logo Igreja Adventista"
             class="church-logo"
           />
         </div>
         <h1 class="church-name">Igreja Adventista do Sétimo Dia</h1>
-        <h2 class="church-location">25 DE DEZEMBRO</h2>
+        <h2 class="church-location">Central Humaitá</h2>
       </div>
 
       <!-- Card Principal -->
@@ -24,123 +24,131 @@
           <v-icon size="large" color="secondary" class="mr-2">mdi-bank</v-icon>
           <span class="text-h4 bank-title">Dados Bancários</span>
         </v-card-title>
-        
+
         <!-- Informações Bancárias -->
         <v-card class="bank-details-card">
           <div class="bank-header">
-            <v-icon size="28" color="white" class="mr-2">mdi-bank-outline</v-icon>
+            <v-icon size="28" color="white" class="mr-2"
+              >mdi-bank-outline</v-icon
+            >
             <span>Conta para Depósito/Transferência</span>
           </div>
-          
+
           <div class="bank-content">
             <div class="bank-info">
               <div class="bank-row">
                 <div class="bank-label">Banco</div>
                 <div class="bank-value d-flex align-center">
                   <span>Bradesco</span>
-                  <v-btn 
-                    icon="mdi-content-copy" 
-                    size="x-small" 
-                    class="ml-2" 
-                    variant="text" 
+                  <v-btn
+                    icon="mdi-content-copy"
+                    size="x-small"
+                    class="ml-2"
+                    variant="text"
                     color="primary"
                     @click="copyToClipboard('Bradesco')"
                   ></v-btn>
                 </div>
               </div>
-              
+
               <div class="bank-row">
                 <div class="bank-label">Agência</div>
                 <div class="bank-value d-flex align-center">
                   <span>153-8</span>
-                  <v-btn 
-                    icon="mdi-content-copy" 
-                    size="x-small" 
-                    class="ml-2" 
-                    variant="text" 
+                  <v-btn
+                    icon="mdi-content-copy"
+                    size="x-small"
+                    class="ml-2"
+                    variant="text"
                     color="primary"
                     @click="copyToClipboard('153-8')"
                   ></v-btn>
                 </div>
               </div>
-              
+
               <div class="bank-row">
                 <div class="bank-label">Conta</div>
                 <div class="bank-value d-flex align-center">
-                  <span>240144-4</span>
-                  <v-btn 
-                    icon="mdi-content-copy" 
-                    size="x-small" 
-                    class="ml-2" 
-                    variant="text" 
+                  <span>240055-3</span>
+                  <v-btn
+                    icon="mdi-content-copy"
+                    size="x-small"
+                    class="ml-2"
+                    variant="text"
                     color="primary"
-                    @click="copyToClipboard('240144-4')"
+                    @click="copyToClipboard('240055-3')"
                   ></v-btn>
                 </div>
               </div>
-              
+
               <div class="bank-row">
                 <div class="bank-label">Tipo</div>
                 <div class="bank-value">Conta Corrente</div>
               </div>
-              
+
               <div class="bank-row">
                 <div class="bank-label">CNPJ</div>
                 <div class="bank-value d-flex align-center">
                   <span>11.200.726/0016-70</span>
-                  <v-btn 
-                    icon="mdi-content-copy" 
-                    size="x-small" 
-                    class="ml-2" 
-                    variant="text" 
+                  <v-btn
+                    icon="mdi-content-copy"
+                    size="x-small"
+                    class="ml-2"
+                    variant="text"
                     color="primary"
                     @click="copyToClipboard('11.200.726/0016-70')"
                   ></v-btn>
                 </div>
               </div>
-              
+
               <div class="bank-row">
                 <div class="bank-label">Titular</div>
                 <div class="bank-value d-flex align-center">
                   <span>União Noroeste Brasileira da IASD</span>
-                  <v-btn 
-                    icon="mdi-content-copy" 
-                    size="x-small" 
-                    class="ml-2" 
-                    variant="text" 
+                  <v-btn
+                    icon="mdi-content-copy"
+                    size="x-small"
+                    class="ml-2"
+                    variant="text"
                     color="primary"
-                    @click="copyToClipboard('União Noroeste Brasileira da IASD')"
+                    @click="
+                      copyToClipboard('União Noroeste Brasileira da IASD')
+                    "
                   ></v-btn>
                 </div>
               </div>
             </div>
           </div>
         </v-card>
-        
+
         <!-- Instruções -->
         <v-card class="instructions-card mt-6 mb-6">
           <div class="instructions-header">
             <v-icon color="success" size="28" class="mr-2">mdi-whatsapp</v-icon>
             <span>Envio de Comprovante</span>
           </div>
-          
+
           <div class="instructions-content">
-            <p class="instruction-text">Após realizar a transferência, envie o comprovante pelo WhatsApp:</p>
-            
-            <div class="whatsapp-highlight d-flex align-center justify-space-between mb-4">
+            <p class="instruction-text">
+              Após realizar a transferência, envie o comprovante pelo WhatsApp:
+            </p>
+
+            <div
+              class="whatsapp-highlight d-flex align-center justify-space-between mb-4"
+            >
               <div>
                 <v-icon color="success" class="mr-2">mdi-whatsapp</v-icon>
                 <strong>(69) 99237-1532 - Eliena</strong>
               </div>
-              <v-btn 
-                icon="mdi-content-copy" 
-                size="small" 
-                variant="text" 
+              <v-btn
+                icon="mdi-content-copy"
+                size="small"
+                variant="text"
                 color="primary"
                 @click="copyToClipboard('69992371532')"
               ></v-btn>
             </div>
-            
+
             <v-btn
               color="success"
               block
@@ -152,11 +160,14 @@
             >
               Enviar via WhatsApp
             </v-btn>
-            
-            <p class="instruction-note">Ao enviar o comprovante, informe os valores de dízimos e ofertas para destinarmos corretamente.</p>
+
+            <p class="instruction-note">
+              Ao enviar o comprovante, informe os valores de dízimos e ofertas
+              para destinarmos corretamente.
+            </p>
           </div>
         </v-card>
-        
+
         <!-- Botão de Retorno -->
         <v-btn
           block
@@ -171,19 +182,24 @@
         </v-btn>
       </v-card>
     </div>
-    
+
     <!-- Rodapé -->
     <footer class="app-footer">
       <div class="bible-verse">
-        <p class="verse-text">"Trazei todos os dízimos à casa do tesouro, para que haja mantimento na minha casa; e provai-me nisso, diz o Senhor dos Exércitos, se eu não vos abrir as janelas do céu e não derramar sobre vós bênção sem medida."</p>
+        <p class="verse-text">
+          "Trazei todos os dízimos à casa do tesouro, para que haja mantimento
+          na minha casa; e provai-me nisso, diz o Senhor dos Exércitos, se eu
+          não vos abrir as janelas do céu e não derramar sobre vós bênção sem
+          medida."
+        </p>
         <p class="verse-reference">Malaquias 3:10</p>
       </div>
       <div class="footer-divider"></div>
       <p class="footer-copyright">
-        IASD 25 de Dezembro - {{ currentYear }} - Todos os direitos reservados.
+        IASD Central Humaitá - {{ currentYear }} - Todos os direitos reservados.
       </p>
     </footer>
-    
+
     <!-- Toast de cópia -->
     <v-snackbar
       v-model="showCopiedToast"
@@ -202,17 +218,17 @@
 
 <script>
 export default {
-  name: 'DadosBancariosPage',
+  name: "DadosBancariosPage",
   data() {
     return {
       showCopiedToast: false,
-      copiedText: '',
-    }
+      copiedText: "",
+    };
   },
   computed: {
     currentYear() {
       return new Date().getFullYear();
-    }
+    },
   },
   methods: {
     copyToClipboard(text) {
@@ -223,9 +239,9 @@ export default {
           this.showCopiedToast = false;
         }, 2000);
       });
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -236,7 +252,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   z-index: -1;
 }
 
@@ -278,7 +294,7 @@ export default {
 .church-name {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #1E3A8A;
+  color: #1e3a8a;
   margin-bottom: 8px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -286,7 +302,7 @@ export default {
 .church-location {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #1E3A8A;
+  color: #1e3a8a;
   margin-bottom: 16px;
 }
 
@@ -323,7 +339,7 @@ export default {
 .bank-header {
   display: flex;
   align-items: center;
-  background-color: #1E3A8A;
+  background-color: #1e3a8a;
   color: white;
   padding: 16px;
   font-size: 1.2rem;
@@ -350,7 +366,7 @@ export default {
 
 .bank-label {
   font-weight: 700;
-  color: #1E3A8A;
+  color: #1e3a8a;
   margin-bottom: 6px;
 }
 
@@ -363,12 +379,12 @@ export default {
     flex-direction: row;
     align-items: center;
   }
-  
+
   .bank-label {
     width: 120px;
     margin-bottom: 0;
   }
-  
+
   .bank-value {
     flex: 1;
   }
@@ -400,13 +416,13 @@ export default {
 .instruction-text {
   font-size: 1.1rem;
   margin-bottom: 16px;
-  color: #1E293B;
+  color: #1e293b;
 }
 
 .instruction-note {
   margin-top: 16px;
   font-size: 0.95rem;
-  color: #64748B;
+  color: #64748b;
   font-style: italic;
 }
 
@@ -441,7 +457,7 @@ export default {
 
 /* Rodapé */
 .app-footer {
-  background-color: #1E3A8A;
+  background-color: #1e3a8a;
   color: white;
   text-align: center;
   padding: 24px 16px;
@@ -458,7 +474,7 @@ export default {
 }
 
 .verse-text {
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   font-style: italic;
   font-size: 1.05rem;
   line-height: 1.5;
@@ -467,7 +483,7 @@ export default {
 }
 
 .verse-reference {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 600;
   color: #93c5fd;
   font-size: 0.95rem;
@@ -482,7 +498,7 @@ export default {
 }
 
 .footer-copyright {
-  font-family: 'Verdana', sans-serif;
+  font-family: "Verdana", sans-serif;
   font-size: 0.9rem;
   opacity: 0.8;
 }
@@ -505,24 +521,24 @@ export default {
   .content-container {
     padding: 30px 20px 80px;
   }
-  
+
   .logo-wrapper {
     width: 220px;
     height: 220px;
   }
-  
+
   .church-logo {
     width: 180px;
   }
-  
+
   .main-card {
     padding: 30px;
   }
-  
+
   .bank-title {
     font-size: 2rem;
   }
-  
+
   .instruction-text {
     font-size: 1.2rem;
   }
@@ -534,46 +550,48 @@ export default {
     width: 100%;
     max-width: 100%;
   }
-  
+
   .logo-wrapper {
     width: 180px;
     height: 180px;
   }
-  
+
   .church-logo {
     width: 140px;
   }
-  
+
   .church-name {
     font-size: 1.6rem;
   }
-  
+
   .church-location {
     font-size: 1.2rem;
   }
-  
+
   .main-card {
     padding: 12px;
     width: 100% !important;
     border-radius: 16px !important;
   }
-  
-  .bank-content, .instructions-content {
+
+  .bank-content,
+  .instructions-content {
     padding: 15px 10px;
   }
-  
-  .bank-header, .instructions-header {
+
+  .bank-header,
+  .instructions-header {
     padding: 12px;
   }
-  
+
   .bank-title {
     font-size: 1.4rem;
   }
-  
+
   .whatsapp-btn {
     font-size: 0.9rem;
   }
-  
+
   .btn-text {
     white-space: nowrap;
   }

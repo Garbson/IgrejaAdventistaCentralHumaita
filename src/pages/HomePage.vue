@@ -15,7 +15,7 @@
           />
         </div>
         <h1 class="church-name">Igreja Adventista do Sétimo Dia</h1>
-        <h2 class="church-location">25 DE DEZEMBRO</h2>
+        <h2 class="church-location">Central Humaitá</h2>
       </div>
 
       <!-- Card Principal -->
@@ -70,14 +70,15 @@
           </v-hover>
 
           <v-hover v-slot="{ isHovering, props }">
-            <v-btn              v-bind="props"
+            <v-btn
+              v-bind="props"
               block
               color="accent"
               size="x-large"
               class="donation-btn"
               :class="{ 'btn-hover': isHovering }"
               prepend-icon="mdi-leaf"
-              href="https://giving.7me.app/guest-donation/church/cc673fc4-ab07-4731-9879-80d20cc7455f"
+              href="https://7me.app/70/donation-7me.html?churchSeq=9"
               target="_blank"
               rounded="lg"
             >
@@ -266,7 +267,7 @@
       </div>
       <div class="footer-divider"></div>
       <p class="footer-copyright">
-        IASD 25 de Dezembro - {{ currentYear }} - Todos os direitos reservados.
+        IASD Central Humaitá - {{ currentYear }} - Todos os direitos reservados.
       </p>
     </footer>
 
@@ -710,7 +711,8 @@ export default {
 
   .church-location {
     font-size: 1.2rem;
-  }  .main-card {
+  }
+  .main-card {
     padding: 12px;
     width: 100% !important;
     border-radius: 16px !important;
@@ -719,19 +721,19 @@ export default {
   .message-card {
     margin-bottom: 16px !important;
   }
-  
+
   .title-section {
     margin-bottom: 12px;
   }
-  
+
   .donation-buttons {
     gap: 12px;
   }
-  
+
   .donation-btn {
     height: 60px !important;
   }
-  
+
   .calculator-card {
     margin-top: 20px;
   }
@@ -769,7 +771,8 @@ export default {
     padding: 15px 10px;
   }
 
-  .input-group, .offering-section {
+  .input-group,
+  .offering-section {
     padding: 15px 10px;
     margin-bottom: 15px;
   }
