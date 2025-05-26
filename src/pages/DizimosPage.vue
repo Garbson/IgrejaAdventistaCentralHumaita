@@ -84,14 +84,14 @@
             >
               <div>
                 <v-icon color="success" class="mr-2">mdi-whatsapp</v-icon>
-                <strong>(69) 99237-1532 - Eliena</strong>
+                <strong>(97) 8113-4217 - Tereza</strong>
               </div>
               <v-btn
                 icon="mdi-content-copy"
                 size="small"
                 variant="text"
                 color="primary"
-                @click="copyTextToClipboard('69992371532')"
+                @click="copyTextToClipboard('9781134217')"
               ></v-btn>
             </div>
             <v-btn
@@ -99,7 +99,7 @@
               block
               class="mt-4 mb-3 whatsapp-btn"
               prepend-icon="mdi-whatsapp"
-              :href="`https://wa.me/5569992371532?text=Olá, estou enviando o comprovante do meu dízimo/oferta.`"
+              :href="`https://wa.me/559781134217?text=Olá, estou enviando o comprovante do meu dízimo/oferta.`"
               target="_blank"
               rounded="lg"
             >
@@ -227,7 +227,7 @@
                 envie o comprovante pelo WhatsApp:
                 <div class="d-flex align-center mt-2 mb-2">
                   <strong
-                    >(69) 99237-1532 - Eliena - Tesoureira da igreja</strong
+                    >(97) 8113-4217 - Tereza - Tesoureira da igreja</strong
                   >
                   <v-btn
                     icon="mdi-content-copy"
@@ -235,7 +235,7 @@
                     class="ml-2"
                     variant="text"
                     color="primary"
-                    @click="copyTextToClipboard('69992371532')"
+                    @click="copyTextToClipboard('97811342172')"
                   ></v-btn>
                 </div>
                 <v-btn
@@ -243,7 +243,7 @@
                   block
                   class="mt-2 whatsapp-btn"
                   prepend-icon="mdi-whatsapp"
-                  :href="`https://wa.me/5569992371532?text=Olá, estou enviando o comprovante do meu dízimo/oferta.`"
+                  :href="`https://wa.me/559781134217?text=Olá, estou enviando o comprovante do meu dízimo/oferta.`"
                   target="_blank"
                   rounded="lg"
                 >

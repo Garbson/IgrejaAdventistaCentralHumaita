@@ -138,14 +138,14 @@
             >
               <div>
                 <v-icon color="success" class="mr-2">mdi-whatsapp</v-icon>
-                <strong>(69) 99237-1532 - Eliena</strong>
+                <strong>(97) 8113-4217 - Tereza</strong>
               </div>
               <v-btn
                 icon="mdi-content-copy"
                 size="small"
                 variant="text"
                 color="primary"
-                @click="copyToClipboard('69992371532')"
+                @click="copyToClipboard('')"
               ></v-btn>
             </div>
 
@@ -154,7 +154,7 @@
               block
               class="mb-4 whatsapp-btn"
               prepend-icon="mdi-whatsapp"
-              :href="`https://wa.me/5569992371532?text=Olá, estou enviando o comprovante do meu dízimo/oferta.`"
+              :href="`https://wa.me/559781134217?text=Olá, estou enviando o comprovante do meu dízimo/oferta.`"
               target="_blank"
               rounded="lg"
             >
