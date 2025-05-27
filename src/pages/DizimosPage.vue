@@ -318,7 +318,7 @@ export default {
   },
   methods: {
     copyToClipboard() {
-      navigator.clipboard.writeText("pix.25dezembro@anra.org.br");
+      navigator.clipboard.writeText("pix.humaita1@anra.org.br");
       this.showCopiedMessage = true;
       setTimeout(() => {
         this.showCopiedMessage = false;
